@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .wrap {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    
+  }
+  
+  .instructions {
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  h1 {
+    color: rgb(136, 132, 132);
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .info{
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 20px;
+    text-align: center;
+
+  }
+  .box {
+    height: 40px;
+    margin: 50px auto;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .transform {
+    transform: scale(2);
+  }
+  
+  .box1 {
+    background: lightskyblue;
+    transition: all 300ms;
+  }
+  
+  .box2 {
+    background:yellow;
+    transition: all 1s;
+  }
+  
+  .box3 {
+    background: orange;
+    transition: all 3s;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+  }
+  
+  
+  .circle1 {
+    background: rgba(0, 0, 139, 0.212);
+    transition: all 1.5s ease-in;
+  }
+  
+  .circle2 {
+    background: rgba(0, 0, 139, 0.425);
+    transition: all 1.5s ease-out;
+  }
+  
+  .circle3 {
+    background: rgba(0, 0, 139, 0.63);
+    transition: all 1.5s ease-in-out;
+  }
+  
+  .circle4 {
+    background: darkblue;
+    transition: all 1.5s cubic-bezier(0,1,.98,0); 
+  }
+  
+  .moveMe {
+    margin-left: 400px; 
+  }
+  
